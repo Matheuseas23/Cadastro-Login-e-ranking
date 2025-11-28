@@ -11,17 +11,26 @@ body {
 }
 
 .container {
-    background: white;
-    width: 250px;
-    padding: 20px;
+    background: #21295C;
+    width: 300px;
+    padding: 22px;
     border-radius: 6px;
     text-align: center;
     box-shadow: 0 0 10px #0003;
     width: 500px;
+    padding-top: 100px;
 }
 
 h2 {
     margin-bottom: 20px;
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
 }
 
 form input {
@@ -30,6 +39,7 @@ form input {
     margin: 8px 0;
     border: 1px solid #999;
     border-radius: 4px;
+    
     
 }
 
@@ -45,6 +55,7 @@ button {
 
 button:hover {
     background: #005ccc;
+    width: 100px;
 }
 
 table {
@@ -56,4 +67,12 @@ table {
 th, td {
     border: 1px solid #aaa;
     padding: 8px;
+}
+
+p {
+    color: white;
+}
+
+a{
+    color: rgba(232, 24, 24, 0.967);
 }
